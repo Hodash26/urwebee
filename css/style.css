@@ -1,0 +1,51 @@
+    /* @font-family: 'Crete Round', serif;
+    @font-family: 'Roboto', sans-serif; */
+
+    /* Roboto: (Thin:100 / Light:300 / Regular:400 / Medium:500) */
+
+
+header {
+    width: 80%;
+    margin: auto;
+    margin-top: 5vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+a {
+    color: black;
+    text-decoration-line: none;
+}
+
+.font-roboto {
+    font-family: 'Roboto', Courier, monospace;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+section {
+    background-color: black;
+    width: 45%;
+    margin: auto;
+    margin-top: 20vh;
+    height: 20%;
+    padding-top: 5vh;
+    padding-bottom: 1vh;
+}
+
+h1 {
+    font-family: 'Crete Round', Courier, monospace;
+    font-size: 96px;
+    color: #F3C622;
+    text-align: center;
+    margin: 0;
+}
+
+h3 {
+    font-family: 'Roboto', Courier, monospace;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 32px;
+    color: white;
+    text-align: center;
+}
