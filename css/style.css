@@ -3,12 +3,15 @@
 
     /* Roboto: (Thin:100 / Light:300 / Regular:400 / Medium:500) */
 
+
+    /* ----------------------PARTIE HEADER-------------------------- */
+
 html{
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 .container-header-section {
-    /* background-color: rgba(243, 198, 34, 0.8); */
     background-image: url(../img/background-section-header.png);
     background-size: cover;
     height: 100vh;
@@ -20,6 +23,7 @@ header {
     margin-top: 0;
     display: flex;
     padding-top: 8vh;
+    font-size: 18px;
     justify-content: space-around;
 }
 
@@ -30,11 +34,6 @@ a{
 
 a, p {
     font-family: 'Roboto', Courier, monospace;
-    font-weight: 100;
-}
-
-header{
-  font-size: 18px;
 }
 
 section {
@@ -88,6 +87,21 @@ h3 {
     width: 3vh;
 }
 
+.logo-hexagon {
+    height: 8vh;
+    width: 8vh;
+}
+
+.container-hexagon {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 33%;
+}
+/* ----------------------FIN HEADER-------------------------- */
+
+
+
 /* ----------------------PARTIE AGENCE-------------------------- */
 .container-agence{
   height: auto;
@@ -120,3 +134,8 @@ h3 {
   width: 646px;
   text-align: justify;
 }
+
+/* ----------------------FIN AGENCE-------------------------- */
+
+
+/* ----------------------PARTIE TECHNOLOGIE-------------------------- */
