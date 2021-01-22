@@ -4,11 +4,17 @@
     /* Roboto: (Thin:100 / Light:300 / Regular:400 / Medium:500) */
 
 
+.container-header-section {
+    background-color: #F3C622;
+    opacity: 0.8;
+}
+
 header {
     width: 80%;
     margin: auto;
-    margin-top: 5vh;
+    margin-top: 0;
     display: flex;
+    padding-top: 5vh;
     justify-content: space-around;
 }
 
@@ -37,6 +43,7 @@ h1 {
     font-family: 'Crete Round', Courier, monospace;
     font-size: 96px;
     color: #F3C622;
+    opacity: 0.8;
     text-align: center;
     margin: 0;
 }
