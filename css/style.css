@@ -7,6 +7,8 @@
 .container-header-section {
     /* background-color: rgba(243, 198, 34, 0.8); */
     background-image: url(../img/background-section-header.png);
+    background-size: cover;
+    height: 100vh;
 }
 
 header {
@@ -14,7 +16,7 @@ header {
     margin: auto;
     margin-top: 0;
     display: flex;
-    padding-top: 5vh;
+    padding-top: 8vh;
     justify-content: space-around;
 }
 
@@ -23,7 +25,7 @@ a {
     text-decoration-line: none;
 }
 
-.font-roboto {
+a, p {
     font-family: 'Roboto', Courier, monospace;
     font-weight: 500;
     font-size: 18px;
@@ -34,7 +36,7 @@ section {
     width: 45%;
     margin: auto;
     margin-top: 20vh;
-    height: 20%;
+    height: 28%;
     padding-top: 5vh;
     padding-bottom: 1vh;
 }
@@ -42,6 +44,7 @@ section {
 h1 {
     font-family: 'Crete Round', Courier, monospace;
     font-size: 96px;
+    font-weight: 100;
     color: #F3C622;
     opacity: 0.8;
     text-align: center;
@@ -55,4 +58,26 @@ h3 {
     font-size: 32px;
     color: white;
     text-align: center;
+}
+
+.container-phonetic-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.radius-speaker {
+    border: 1px solid white;
+    border-radius: 50px;
+    margin-left: 2em;
+    height: 5vh;
+    width: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.speaker_logo {
+    height: 3vh;
+    width: 3vh;
 }
