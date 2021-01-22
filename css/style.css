@@ -20,6 +20,7 @@ header {
     margin-top: 0;
     display: flex;
     padding-top: 8vh;
+    font-size: 18px;
     justify-content: space-around;
 }
 
@@ -33,11 +34,7 @@ a, p {
     font-weight: 100;
 }
 
-header{
-  font-size: 18px;
-}
-
-section {
+.container-home{
     background-color: black;
     width: 45%;
     margin: auto;
@@ -57,6 +54,15 @@ h1 {
     margin: 0;
 }
 
+/* Style pour les titres de chaque section (ex: "Nos compétences, Nos technologies") */
+h2{
+  font-family: 'Crete Round', Courier, monospace;
+  font-style: italic;
+  font-size: 64px;
+  font-weight: 300;
+}
+
+/* Style pour la phonétique du nom de l'agence */
 h3 {
     font-family: 'Roboto', Courier, monospace;
     font-weight: 300;
@@ -64,6 +70,13 @@ h3 {
     font-size: 32px;
     color: white;
     text-align: center;
+}
+
+/* Style pour les titres des cartes de la section compétence */
+h4{
+  font-family: 'Roboto', Courier, monospace;
+  font-style: Medium;
+  font-size: 24px;
 }
 
 .container-phonetic-logo {
@@ -119,4 +132,20 @@ h3 {
 .container-agence-txt p{
   width: 646px;
   text-align: justify;
+}
+
+/* ----------------------PARTIE COMPETENCES-------------------------- */
+.container-expertises-cards{
+  display: flex;
+  justify-content: space-around;
+}
+
+.container-expertises-card{
+  height: 320px;
+  width: 288px;
+  border: 3px solid rgba(243, 198, 34, 0.8);
+}
+
+.container-expertises-card{
+  width: 236px;
 }
