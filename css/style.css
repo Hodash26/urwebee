@@ -3,6 +3,9 @@
 
     /* Roboto: (Thin:100 / Light:300 / Regular:400 / Medium:500) */
 
+html{
+  overflow-x: hidden;
+}
 
 .container-header-section {
     /* background-color: rgba(243, 198, 34, 0.8); */
@@ -20,15 +23,18 @@ header {
     justify-content: space-around;
 }
 
-a {
+a{
     color: black;
     text-decoration-line: none;
 }
 
 a, p {
     font-family: 'Roboto', Courier, monospace;
-    font-weight: 500;
-    font-size: 18px;
+    font-weight: 100;
+}
+
+header{
+  font-size: 18px;
 }
 
 section {
@@ -80,4 +86,37 @@ h3 {
 .speaker_logo {
     height: 3vh;
     width: 3vh;
+}
+
+/* ----------------------PARTIE AGENCE-------------------------- */
+.container-agence{
+  height: auto;
+  width: 100vw;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.container-agence img{
+  height: 322px;
+  width: 322px;
+}
+
+.container-agence-txt{
+  color: white;
+  margin-left: 100px;
+}
+
+.container-agence-txt h2{
+  font-family: 'Crete Round', Courier, monospace;
+  font-size: 48px;
+  font-style: italic;
+  font-weight: 200;
+}
+
+.container-agence-txt p{
+  width: 646px;
+  text-align: justify;
 }
