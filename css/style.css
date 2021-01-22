@@ -155,18 +155,43 @@ h4{
 
 
 /* ----------------------PARTIE TECHNOLOGIE-------------------------- */
+
+
+
+
+
+
+
+
+
+
 /* ----------------------PARTIE COMPETENCES-------------------------- */
+.container-expertises{
+  height: 80vh;
+}
+
 .container-expertises-cards{
   display: flex;
   justify-content: space-around;
 }
 
 .container-expertises-card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 20px 0 20px;
   height: 320px;
   width: 288px;
   border: 3px solid rgba(243, 198, 34, 0.8);
+  background-color: white;
+  filter: drop-shadow(0px 4px 70px rgba(0, 0, 0, 0.2));
 }
 
-.container-expertises-card{
-  width: 236px;
+.container-expertises-card img{
+  height: 64px;
+  width: 64px;
+}
+
+.container-expertises-card p{
+  text-align: justify;
 }
