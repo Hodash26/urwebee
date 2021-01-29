@@ -378,6 +378,90 @@ h4{
   float: right;
 }
 
+/* ----------------------PARTIE CONTACT-------------------------- */
+.container-contact{
+  margin: 0 auto;
+  width: 80vw;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  border: 3px solid rgba(243, 198, 34, 0.8);
+  display: flex;
+}
+
+.container-contact-map{
+  width: 50%;
+  position: relative;
+  background-color: #000;
+}
+
+.container-contact-map iframe{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.container-contact-form{
+  height: 599px;
+  width: 50%;
+  position: relative;
+}
+
+.container-contact-form h2{
+  text-align: center;
+}
+
+.container-contact-form form{
+  width: 72%;
+  margin: auto;
+}
+
+.container-contact-form-name {
+  display: inline;
+}
+
+.container-contact-form-input input{
+  width: 100%;
+  margin-bottom: 5%;
+}
+
+.container-contact-form-input textarea{
+  width: 100%;
+  height: 100px;
+  resize: none;
+  border-bottom: 1px solid #000;
+  position: relative;
+}
+
+.contact-form-txt{
+  font-family: Roboto;
+  font-style: italic;
+  font-weight: 300;
+  font-size: 18px;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 1px solid #000;
+}
+
+input[type=submit]{
+  background-color: #FCB43A;
+  width: 200px;
+  height: 60px;
+  font-family: 'Roboto', Courier, monospace;
+  font-size: 18px;
+  border: none;
+  border-radius: 50px;
+  position: absolute;
+  bottom: 7%;
+  right: 10%;
+}
+
+input[type=submit]:hover{
+  background-color: rgba(252,180,58,0.8);
+}
+
 /* ----------------------PARTIE FOOTER-------------------------- */
 
 footer {
