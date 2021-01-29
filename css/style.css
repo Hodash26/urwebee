@@ -377,3 +377,91 @@ h4{
   width: 12vw;
   float: right;
 }
+
+/* ----------------------PARTIE FOOTER-------------------------- */
+
+footer {
+  background-color: black;
+  padding-bottom: 10vh;
+}
+
+.container-footer {
+  width: 80%;
+  margin: auto;
+  padding-top: 3vh;
+  display: flex;
+  justify-content: space-between;
+}
+
+.title-footer {
+  font-family: 'Crete Round', Courier, monospace;
+  font-size: 48px;
+  font-weight: 100;
+  color: #F3C622;
+  opacity: 0.8;
+  margin-bottom: 0;
+}
+
+.container-phonetic-logo-footer {
+  display: flex;
+  align-items: center;
+  padding-bottom: 2vh;
+}
+
+.phonetic-text-footer {
+  font-size: 18px;
+}
+
+.radius-speaker-footer {
+  border: 1px solid white;
+    border-radius: 50px;
+    margin-left: 1em;
+    height: 3vh;
+    width: 3vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.speaker_logo-footer {
+  height: 2vh;
+  width: 2vh;
+}
+
+.text-footer-center {
+  font-size: 16px;
+  color: white;
+  font-weight: 100;
+  margin: 0;
+  text-align: center;
+}
+
+.text-footer-left {
+  font-size: 16px;
+  color: white;
+  font-weight: 100;
+  margin: 0;
+}
+
+.container-section-center {
+  margin-top: 13vh;
+  width: 15%;
+}
+
+.container-image-footer {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 5vh;
+}
+
+.text-footer {
+  font-size: 16px;
+  color: white;
+  font-weight: 400;
+}
+
+.container-section-right {
+  text-align: end;
+  margin-top: 2vh;
+  width: 25%;
+}
