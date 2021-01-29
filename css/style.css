@@ -114,8 +114,6 @@ h4{
     align-items: flex-end;
     height: 33%;
 }
-/* ----------------------FIN HEADER-------------------------- */
-
 
 
 /* ----------------------PARTIE AGENCE-------------------------- */
@@ -155,8 +153,6 @@ h4{
   width: 646px;
   text-align: justify;
 }
-
-/* ----------------------FIN AGENCE-------------------------- */
 
 
 /* ----------------------PARTIE COMPETENCES-------------------------- */
@@ -198,6 +194,7 @@ h4{
   font-weight: 100;
 }
 
+
 /* ----------------------PARTIE TECHNOLOGIE-------------------------- */
 
 .technologie {
@@ -238,6 +235,7 @@ h4{
   font-weight: 500;
   color: #3A3637;
 }
+
 
 /* ----------------------PARTIE EQUIPE-------------------------- */
 
@@ -309,4 +307,73 @@ h4{
 .container-team-card p{
   font-weight: 100;
   font-size: 20px;
+}
+
+/* ----------------------PARTIE PROJET-------------------------- */
+
+/* ----PARTIE PROJET 1---- */
+
+.project-1 {
+  display: flex;
+}
+
+.container-image-project1 {
+  width: 50%;
+  background-image: url(../img/image_project1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container-project1-text{
+  background-color: #3A3637;
+  color: white;
+  width: 50%;
+}
+
+.title-projet1 {
+  margin-left: 4vw;
+  margin-bottom: 0.1em;
+}
+
+.underline-left {
+  border: white 1px solid;
+  width: 12vw;
+}
+
+.text-project {
+  font-family: 'Roboto', Courier, monospace;
+  font-size: 18px;
+  font-weight: 300;
+  margin: 10%;
+}
+
+/* ----PARTIE PROJET 2---- */
+
+.project-2 {
+  display: flex;
+}
+
+.container-image-project2 {
+  width: 50%;
+  background-image: url(../img/image_project2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container-project2-text{
+  background-color: #3A3637;
+  color: white;
+  width: 50%;
+}
+
+.title-projet2 {
+  text-align: end;
+  margin-bottom: 0.1em;
+  margin-right: 4vw;
+}
+
+.underline-right {
+  border: white 1px solid;
+  width: 12vw;
+  float: right;
 }
