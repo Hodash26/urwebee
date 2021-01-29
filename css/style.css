@@ -199,3 +199,41 @@ h4{
 }
 
 /* ----------------------PARTIE TECHNOLOGIE-------------------------- */
+
+.technologie {
+  position: relative;
+}
+
+.title-technologie {
+  text-align: center;
+}
+
+.background-title-technologie {
+  font-size: 144px;
+  font-family: 'Crete Round', Courier, monospace;
+  font-style: italic;
+  font-weight: 300;
+  color: black;
+  opacity: 0.1;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  position: absolute;
+  margin-bottom: 0;
+  top: -1.1em;
+  z-index: -1;
+}
+
+.container-technologie {
+  margin-top: 12vh;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.container-technologies-logos {
+  text-align: center;
+  font-family: 'Roboto', Courier, monospace;
+  font-size: 24px;
+  font-weight: 500;
+  color: #3A3637;
+}
