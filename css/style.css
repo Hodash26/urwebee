@@ -154,7 +154,6 @@ h4{
 /* ----------------------FIN AGENCE-------------------------- */
 
 
-/* ----------------------PARTIE TECHNOLOGIE-------------------------- */
 /* ----------------------PARTIE COMPETENCES-------------------------- */
 .container-expertises-cards{
   display: flex;
@@ -170,3 +169,5 @@ h4{
 .container-expertises-card{
   width: 236px;
 }
+
+/* ----------------------PARTIE TECHNOLOGIE-------------------------- */
