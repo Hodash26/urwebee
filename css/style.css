@@ -202,6 +202,7 @@ h4{
 
 .technologie {
   position: relative;
+  margin-bottom: 15vh;
 }
 
 .title-technologie {
@@ -236,4 +237,76 @@ h4{
   font-size: 24px;
   font-weight: 500;
   color: #3A3637;
+}
+
+/* ----------------------PARTIE EQUIPE-------------------------- */
+
+.team-background{
+  background-color: rgba(196, 196, 196, 0.3);
+  position: relative;
+}
+
+.container-team{
+  margin: 0 auto;
+  padding: 30px 0 30px 0;
+  width: 80vw;
+}
+
+.container-team h2{
+  text-align: right;
+}
+
+.container-team-bg-text{
+  position: absolute;
+  font-family: Crete Round;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 288px;
+  color: rgba(0, 0, 0, 0.1);
+  margin: 0;
+
+}
+
+#container-team-bg-p-left{
+ transform: rotate(90deg);
+ top: 350px;
+ left: -380px;
+}
+
+#container-team-bg-p-right{
+  transform: rotate(90deg);
+  top: 350px;
+  right: -480px;
+}
+
+.container-team-cards{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 900px;
+  margin: auto;
+}
+
+.container-team-card-bottom{
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+.container-team-card-bottom div:last-child{
+  margin-left: 75px;
+}
+
+.container-team-card{
+  text-align: center;
+}
+
+.container-team-card img{
+  height: 250px;
+  width: 250px;
+}
+
+.container-team-card p{
+  font-weight: 100;
+  font-size: 20px;
 }
