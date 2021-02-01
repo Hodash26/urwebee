@@ -17,6 +17,10 @@ html{
     height: 100vh;
 }
 
+.container-header-section{
+  font-weight: 500;
+}
+
 header {
     width: 80%;
     margin: auto;
@@ -125,7 +129,7 @@ h4{
 .container-agence{
   height: auto;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   padding-top: 60px;
   padding-bottom: 60px;
   margin: 0 auto;
@@ -135,6 +139,7 @@ h4{
 .container-agence img{
   height: 322px;
   width: 322px;
+  margin-right: 20px;
 }
 
 .container-agence-txt{
@@ -150,7 +155,7 @@ h4{
 }
 
 .container-agence-txt p{
-  width: 646px;
+  max-width: 646px;
   text-align: justify;
 }
 
@@ -293,6 +298,12 @@ h4{
 
 .container-team-card-bottom div:last-child{
   margin-left: 75px;
+}
+
+@media screen and (max-width: 720px) {
+  .container-team-card-bottom div:last-child{
+    margin: 0;
+  }
 }
 
 .container-team-card{
@@ -548,4 +559,48 @@ footer {
   text-align: end;
   margin-top: 2vh;
   width: 25%;
+}
+
+
+/* ------------------------------------------------------------------- */
+/* ----------------------RESPONSIVE TABLETTE-------------------------- */
+/* ------------------------------------------------------------------- */
+
+@media screen and (max-width: 960px) {
+
+ /* ----------------------PARTIE AGENCE-------------------------- */
+
+ .container-agence img{
+   display: none;
+ }
+
+/* ----------------------PARTIE COMPETENCE-------------------------- */
+
+  .container-expertises-cards{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .container-expertises-card{
+    width: auto;
+    max-width: 400px;
+    margin-bottom: 35px;
+  }
+
+/* ----------------------PARTIE TECHNOLOGIE-------------------------- */
+  .container-team-cards{
+    justify-content: space-around;
+  }
+
+  .container-team-card-bottom{
+    margin: 0;
+    flex-wrap: wrap;
+  }
+
+
+/* ------------------------------------------------------------------- */
+/* ----------------------RESPONSIVE PORTABLE-------------------------- */
+/* ------------------------------------------------------------------- */
+@media screen and (max-width: 480px) {
+
 }
