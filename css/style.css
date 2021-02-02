@@ -402,7 +402,6 @@ h4{
 .container-contact-map{
   width: 50%;
   position: relative;
-  background-color: #000;
 }
 
 .container-contact-map iframe{
@@ -569,13 +568,11 @@ footer {
 @media screen and (max-width: 960px) {
 
  /* ----------------------PARTIE AGENCE-------------------------- */
-
  .container-agence img{
    display: none;
  }
 
 /* ----------------------PARTIE COMPETENCE-------------------------- */
-
   .container-expertises-cards{
     flex-direction: column;
     align-items: center;
@@ -588,6 +585,10 @@ footer {
   }
 
 /* ----------------------PARTIE TECHNOLOGIE-------------------------- */
+
+
+
+/* ----------------------PARTIE EQUIPE-------------------------- */
   .container-team-cards{
     justify-content: space-around;
   }
@@ -597,7 +598,16 @@ footer {
     flex-wrap: wrap;
   }
 
+/* ----------------------PARTIE CONTACT-------------------------- */
+  .container-contact-map{
+    display: none;
+  }
 
+  .container-contact-form{
+    width: 100%;
+  }
+
+}
 /* ------------------------------------------------------------------- */
 /* ----------------------RESPONSIVE PORTABLE-------------------------- */
 /* ------------------------------------------------------------------- */
