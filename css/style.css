@@ -247,6 +247,7 @@ h4{
 .team-background{
   background-color: rgba(196, 196, 196, 0.3);
   position: relative;
+  overflow: hidden;
 }
 
 .container-team{
@@ -267,7 +268,7 @@ h4{
   font-size: 288px;
   color: rgba(0, 0, 0, 0.1);
   margin: 0;
-
+  overflow-x: hidden;
 }
 
 #container-team-bg-p-left{
@@ -277,6 +278,7 @@ h4{
 }
 
 #container-team-bg-p-right{
+  overflow: hidden;
   transform: rotate(90deg);
   top: 350px;
   right: -480px;
@@ -589,6 +591,10 @@ footer {
 
 
 /* ----------------------PARTIE EQUIPE-------------------------- */
+  .team-background {
+    overflow: hidden;
+  }
+
   .container-team-cards{
     justify-content: space-around;
   }
@@ -596,6 +602,10 @@ footer {
   .container-team-card-bottom{
     margin: 0;
     flex-wrap: wrap;
+  }
+
+  #container-team-bg-p-right{
+    right: -45vw;
   }
 
 /* ----------------------PARTIE CONTACT-------------------------- */
