@@ -212,7 +212,7 @@ h4{
 }
 
 .background-title-technologie {
-  font-size: 10vw;
+  font-size: 8vw;
   font-family: 'Crete Round', Courier, monospace;
   font-style: italic;
   font-weight: 300;
@@ -223,7 +223,7 @@ h4{
   width: 100%;
   position: absolute;
   margin-bottom: 0;
-  top: -1.1em;
+  top: -0.8em;
   z-index: -1;
 }
 
@@ -275,6 +275,7 @@ h4{
  transform: rotate(90deg);
  top: 350px;
  left: -380px;
+ overflow: hidden;
 }
 
 #container-team-bg-p-right{
@@ -573,9 +574,26 @@ footer {
     font-size: 55px;
   }
  /* ----------------------PARTIE SECTION HEADER-------------------------- */
+
+  header > a {
+    display: none;
+  }
+
   section {
     width: 55%;
-    height: 30%;
+    height: auto;
+  }
+
+  h1 {
+    font-size: 10vw;
+  }
+
+  .container-phonetic-logo {
+    font-size: 8vw;
+  }
+
+  .radius-speaker {
+    margin-left: 1vw;
   }
 
 
@@ -628,6 +646,10 @@ footer {
     right: -45vw;
   }
 
+  .container-team-bg-text{
+    display: none;
+  }
+
 /* ----------------------PARTIE CONTACT-------------------------- */
   .container-contact-map{
     display: none;
@@ -635,6 +657,33 @@ footer {
 
   .container-contact-form{
     width: 100%;
+  }
+
+
+/* ----------------------PARTIE FOOTER-------------------------- */
+.container-footer {
+  display: initial;
+}
+
+.container-section-left {
+  text-align: center;
+}
+
+.container-phonetic-logo-footer {
+  justify-content: center;
+}
+
+.container-section-center {
+  width: auto;
+  margin-top: 5vh;
+  }
+
+.container-image-footer {
+  justify-content: space-evenly;
+}
+
+  .container-section-right {
+    display: none;
   }
 
 }
