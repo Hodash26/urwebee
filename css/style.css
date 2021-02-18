@@ -212,7 +212,7 @@ h4{
 }
 
 .background-title-technologie {
-  font-size: 144px;
+  font-size: 10vw;
   font-family: 'Crete Round', Courier, monospace;
   font-style: italic;
   font-weight: 300;
@@ -587,7 +587,9 @@ footer {
   }
 
 /* ----------------------PARTIE TECHNOLOGIE-------------------------- */
-
+.background-title-technologie {
+  top: -0.8em;
+}
 
 
 /* ----------------------PARTIE EQUIPE-------------------------- */
