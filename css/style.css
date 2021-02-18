@@ -569,9 +569,23 @@ footer {
 
 @media screen and (max-width: 960px) {
 
+  h2 {
+    font-size: 55px;
+  }
+ /* ----------------------PARTIE SECTION HEADER-------------------------- */
+  section {
+    width: 55%;
+    height: 30%;
+  }
+
+
  /* ----------------------PARTIE AGENCE-------------------------- */
  .container-agence img{
    display: none;
+ }
+
+ .container-agence-txt {
+   padding-right: 0;
  }
 
 /* ----------------------PARTIE COMPETENCE-------------------------- */
@@ -584,6 +598,10 @@ footer {
     width: auto;
     max-width: 400px;
     margin-bottom: 35px;
+  }
+
+  .container-expertises-card p {
+    font-weight: 300;
   }
 
 /* ----------------------PARTIE TECHNOLOGIE-------------------------- */
