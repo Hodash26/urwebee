@@ -11,6 +11,10 @@ html{
   scroll-behavior: smooth;
 }
 
+.menu-burger {
+  display: none;
+}
+
 .container-header-section {
     background-image: url(../img/background-section-header.png);
     background-size: cover;
@@ -574,6 +578,10 @@ footer {
     font-size: 55px;
   }
  /* ----------------------PARTIE SECTION HEADER-------------------------- */
+
+ .menu-burger {
+    display: initial;
+}
 
   header > a {
     display: none;
