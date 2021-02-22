@@ -759,8 +759,15 @@ footer {
     width: 100%;
   }
 
+  .container-contact-form-input textarea{
+    height: 150px;
+  }
 
   /* ----------------------PARTIE FOOTER-------------------------- */
+  footer{
+    padding-top: 10px;
+  }
+
   .container-footer {
     display: initial;
   }
@@ -785,10 +792,89 @@ footer {
   .container-section-right {
     display: none;
   }
-
 }
 
 /* ------------------------------------------------------------------- */
 /* ----------------------RESPONSIVE PORTABLE-------------------------- */
 /* ------------------------------------------------------------------- */
-@media screen and (max-width: 480px) {}
+@media screen and (max-width: 480px) {
+
+  h2{
+    font-size: 38px;
+  }
+
+/* ----------------------PARTIE AGENCE-------------------------- */
+    .container-agence-txt h2{
+        font-size: 42px;
+    }
+
+/* ----------------------PARTIE COMPETENCES-------------------------- */
+  .container-expertises{
+    padding-bottom: 50px;
+  }
+
+  .container-expertises-card{
+    width: 75vw;
+  }
+
+
+/* ----------------------PARTIE TECHNOLOGIE-------------------------- */
+  .technologie{
+    margin-bottom: 100px;
+  }
+
+  .background-title-technologie {
+    display: none;
+  }
+
+  .container-technologie{
+    margin-top: 50px;
+  }
+
+  .container-technologies-logos p{
+    font-size: 14px;
+  }
+
+/* ----------------------PARTIE EQUIPE-------------------------- */
+  .container-team-card-bottom{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+
+  .container-team-card img{
+    height: 150px;
+    width: 150px;
+  }
+
+  .container-team-card h4{
+    font-size:  18px;
+  }
+
+  .container-team-card p{
+    font-size: 16px;
+  }
+
+/* ----------------------PARTIE PROJET-------------------------- */
+  .project-1{
+    width: 85vw;
+    margin: 20px auto;
+  }
+
+  .project-2{
+    width: 85vw;
+    margin: 20px auto;
+  }
+
+/* ----------------------PARTIE CONTACT-------------------------- */
+  .container-contact{
+    width: 84vw;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .container-contact-form-input textarea{
+    height: 200px;
+  }
+}
