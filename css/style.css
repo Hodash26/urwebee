@@ -697,8 +697,13 @@ header .header--container {
   }
 
   section {
-    width: 55%;
-    height: auto;
+    width: 70vw;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
   }
 
   h1 {
@@ -707,12 +712,32 @@ header .header--container {
 
   .container-phonetic-logo {
     font-size: 8vw;
+    margin-top: 10px;
   }
 
   .radius-speaker {
     margin-left: 1vw;
+    height: 3vh;
+    width: 3vw;
+    min-width: 24px;
+    min-height: 24px;
   }
 
+  .speaker_logo{
+    height: 2vh;
+    width: 2vw;
+    min-width: 12px;
+    min-height: 12px;
+  }
+
+  h3{
+    font-size: 5vw;
+    margin: 0;
+  }
+
+  .container-hexagon{
+    height: 30%;
+  }
 
   /* ----------------------PARTIE AGENCE-------------------------- */
   .container-agence img {
@@ -908,6 +933,11 @@ header .header--container {
 
   h2{
     font-size: 38px;
+  }
+
+/* ----------------------PARTIE HEADER-------------------------- */
+  .radius-speaker{
+    margin-left: 10px;
   }
 
 /* ----------------------PARTIE AGENCE-------------------------- */
