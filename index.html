@@ -7,7 +7,8 @@
   <title>Urwebee</title>
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
-  <script defer src="script.js"></script>
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <script defer src="js/script.js"></script>
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link
     href="https://fonts.googleapis.com/css2?family=Crete+Round:ital@1&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,300&display=swap"
@@ -63,10 +64,10 @@
   </div>
 
   <!-- AGENCE -->
-  <div id="agence" class="agence-background">
+  <div class="agence-background">
     <div class="container-agence">
       <img src="./img/bees.png" alt="logo" />
-      <div class="container-agence-txt">
+      <div data-aos="zoom-out-up" class="container-agence-txt">
         <h2>Une agence à votre écoute</h2>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eget metus leo. Nullam sed justo dapibus
@@ -265,6 +266,12 @@
       </div>
     </div>
   </footer>
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
 </body>
 
 </html>
