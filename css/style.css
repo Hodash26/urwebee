@@ -356,7 +356,7 @@ h4 {
 }
 
 .underline-left {
-  border: white 1px solid;
+  border-top: white 1px solid;
   width: 12vw;
 }
 
@@ -393,7 +393,7 @@ h4 {
 }
 
 .underline-right {
-  border: white 1px solid;
+  border-top: white 1px solid;
   width: 12vw;
   float: right;
 }
@@ -569,6 +569,11 @@ footer {
   width: 25%;
 }
 
+.burger--button{
+  color: white;
+}
+
+
 
 /* ------------------------------------------------------------------- */
 /* ----------------------RESPONSIVE TABLETTE-------------------------- */
@@ -608,6 +613,7 @@ footer {
   .menu-active {
     transform: translateX(0%);
     opacity: 1;
+    background-color: black;
   }
 
   .burger--button {
@@ -655,7 +661,10 @@ footer {
   }
 
   nav {
-    margin-top: 20vh;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 
   nav > a {
@@ -844,7 +853,7 @@ footer {
     justify-content: center;
     align-items: center;
     position: absolute;
-    z-index: 100;
+    z-index: 50;
     width: 100%;
     height: 100%;
     text-align: center;
@@ -853,7 +862,7 @@ footer {
   }
 
   .underline-left {
-    border: #3A3637 1px solid;
+    border-top: #3A3637 1px solid;
   }
 
   .title-projet1 {
@@ -886,7 +895,7 @@ footer {
     justify-content: center;
     align-items: center;
     position: absolute;
-    z-index: 100;
+    z-index: 50;
     width: 100%;
     height: 100%;
     text-align: center;
@@ -895,7 +904,7 @@ footer {
   }
 
   .underline-right {
-    border: #3A3637 1px solid;
+    border-top: #3A3637 1px solid;
   }
 
   .title-projet2 {
