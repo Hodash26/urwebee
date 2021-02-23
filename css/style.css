@@ -11,6 +11,10 @@ html {
   scroll-behavior: smooth;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 .header--container,
 .main-menu {
   display: none;
@@ -95,6 +99,31 @@ h4 {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.container-phonetic-logo:hover {
+  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
 }
 
 .radius-speaker {
@@ -327,6 +356,14 @@ h4 {
 .container-team-card p {
   font-weight: 100;
   font-size: 20px;
+}
+
+.zoom {
+  transition: ease-in-out .2s;
+}
+
+.zoom:hover {
+  transform: scale(1.2);
 }
 
 /* ----------------------PARTIE PROJET-------------------------- */
@@ -672,10 +709,6 @@ footer {
     text-align: center;
     width: 100%;
     color: #F3C622;
-  }
-
-  body {
-    overflow-x: hidden;
   }
 
   header {
