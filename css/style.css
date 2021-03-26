@@ -189,6 +189,16 @@ h4 {
   font-weight: 200;
 }
 
+.container-valeurs{
+  display: flex;
+  justify-content: space-between;
+}
+
+.valeurs {
+  color: rgba(243, 198, 34, 0.8);
+  font-weight: 100;
+}
+
 .container-agence-txt p {
   max-width: 646px;
   text-align: justify;
@@ -811,6 +821,10 @@ footer {
     padding-right: 0;
   }
 
+  .valeurs {
+    font-size: 20px;
+  }
+
   /* ----------------------PARTIE COMPETENCE-------------------------- */
   .container-expertises-cards {
     flex-direction: column;
@@ -1006,6 +1020,10 @@ footer {
 /* ----------------------PARTIE AGENCE-------------------------- */
     .container-agence-txt h2{
         font-size: 42px;
+    }
+
+    .valeurs {
+      font-size: 16px;
     }
 
   /* ----------------------PARTIE COMPETENCES-------------------------- */
