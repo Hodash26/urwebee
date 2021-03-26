@@ -22,6 +22,3 @@ aButton.forEach(item => {
 window.addEventListener('scroll', function() {
   console.log(window.pageYOffset + 'px');
 });
-
-Mobile : 850 - 1290
-Tablet : 850 - 1190
