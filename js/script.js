@@ -25,7 +25,6 @@ aButton.forEach(item => {
 
 $(window).scroll(function() {
   if (Array.prototype.some.call($('.white-header'), function(element) {
-    console.log("test");
   	scrollPosition = $(window).scrollTop();
     elementTop = $(element).offset().top;
     elementBottom = $(element).outerHeight() + elementTop;
